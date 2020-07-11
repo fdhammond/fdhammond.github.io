@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    --main-color: #fca311;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: black;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.sidebar h1 {
+    display: block;
+    padding: 10px 20px;
+    color: var(--main-color);
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 12px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+}
+
+.sidebar a {
+    display: block;
+    padding: 20px 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;  
+    font-family: 'Montserrat'; 
+}
+
+.sidebar a:hover {
+    margin-left: 20px;
+    transition: 0.5s;
+    color: var(--main-color);
+}
+
+main {
+    margin-left: 250px;
+}
+
+.header {
+    font-family: 'Montserrat';
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 45px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+.proyects {
+    font-family: 'Roboto';
+    margin-top: 45px;
+    margin-left: 45px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.proyect-list {
+    font-family: 'Roboto';
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.proyect-list ul li {
+    font-size: 24px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.proyect-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.proyect-list a:hover {
+    margin-left: 20px;
+    color: var(--main-color);
+    transition: 0.5s;
+}
